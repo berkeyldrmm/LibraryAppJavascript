@@ -1,0 +1,81 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    min-height: 150%;
+    border:2px solid black;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:150px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+#addingbook{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    border-bottom: 1px solid #e2e2e2;
+
+}
+
+.title{
+    color:red;
+    font-weight: 600;
+    font-size: 30px;
+    border-bottom: 1px solid rosybrown;
+}
+
+#addingbook input{
+    width: 300px;
+}
+
+#addingbook button{
+    color:honeydew;
+}
+
+#registereds{
+    display: flex;
+    flex-direction: row;
+}
+
+#newregistereds, #allregistereds{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+}
+
+.book{
+    border:1px solid black;
+    border-radius: 6px;
+    background-color: blueviolet;
+    color:bisque;
+    margin:10px;
+    padding: 7px;
+    width:85%;
+    display: flex;
+    justify-content: center;
+    height:50px;
+}
+
+.context{
+    flex-grow: 100;
+    text-align: center;
+}
+
+.btn-danger{
+    flex-grow: 1;
+}
